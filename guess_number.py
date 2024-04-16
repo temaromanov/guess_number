@@ -9,6 +9,6 @@ while True:
         print("введите число меньше")
     elif m > num:
         print("введите число ,больше")
-    else:
+    elif m == num:
         break
 print('Отлично')
